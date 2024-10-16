@@ -1,1 +1,1 @@
-# NWSEPortal  Portal Site for NWSE--Education
+# NWSEPortal  Portal Site for NWSE--Education Made files public
