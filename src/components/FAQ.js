@@ -116,10 +116,12 @@ const FAQ = () => {
             <ListItem>NWSE Agreements</ListItem>
             <ListItem>Power of Attorney</ListItem>
             <ListItem>Medical Forms</ListItem>
+            <ListItem>Copy of Original Immunization Record</ListItem>
+            <ListItem>Copy of Official School Transcripts</ListItem>
+            <ListItem>English Translation of School Transcripts</ListItem>
+            <ListItem>Recommendations (three separate forms uploaded as one pdf document)</ListItem>
             <ListItem>Passport (readable digital copy in JPEG format)</ListItem>
             <ListItem>Birth Certificate (readable digital copy and English translation)</ListItem>
-            <ListItem>School Transcripts (official transcript and English translation)</ListItem>
-            <ListItem>Recommendations (three separate forms)</ListItem>
           </List>
         </Answer>
 
@@ -128,7 +130,7 @@ const FAQ = () => {
           <List>
             <ListItem>Medical History: Completed by you and your parent/guardian.</ListItem>
             <ListItem>Physical Examination Form: Completed by a licensed medical doctor within the last three months.</ListItem>
-            <ListItem>Certificate of Immunization Status: Legible photocopy of your original immunization record.</ListItem>
+            <ListItem>Certificate of Immunization Status: Fully completed in all required areas and signed by parent/guardian and licensed medical doctor.</ListItem>
             <ListItem>Additional Medical Information: Detailed explanations for any medical conditions or treatments disclosed.</ListItem>
           </List>
         </Answer>
