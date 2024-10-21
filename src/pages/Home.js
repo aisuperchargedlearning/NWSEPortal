@@ -7,6 +7,9 @@ import BiographicalInfo from '../components/BiographicalInfo';
 import LifestyleSection from '../components/LifestyleSection';
 import IntroductionEssays from '../components/IntroductionEssays';
 import PhotosVideos from '../components/PhotosVideos';
+import DocumentSubmission from '../components/DocumentSubmission';
+import FinalReview from '../components/FinalReview';
+import FAQ from '../components/FAQ';
 
 const HomeWrapper = styled.div`
   // Add any global styles for the home page here
@@ -32,6 +35,9 @@ function Home() {
       <div id="photosVideos">
         <PhotosVideos />
       </div>
+      <DocumentSubmission />
+      <FinalReview />
+      <FAQ />
     </HomeWrapper>
   );
 }
