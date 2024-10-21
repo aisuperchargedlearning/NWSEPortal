@@ -10,34 +10,38 @@ import PhotosVideos from '../components/PhotosVideos';
 import DocumentSubmission from '../components/DocumentSubmission';
 import FinalReview from '../components/FinalReview';
 import FAQ from '../components/FAQ';
+import Conclusion from '../components/Conclusion';
 
 const HomeWrapper = styled.div`
   // Add any global styles for the home page here
+`;
+
+const PortalImage = styled.img`
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 2rem auto;
+  display: block;
 `;
 
 function Home() {
   return (
     <HomeWrapper>
       <HeroSection />
+      <PortalImage 
+        src="https://ik.imagekit.io/a7tech/nwse/NWSE%20Portal.jpg?updatedAt=1728609830993" 
+        alt="NWSE Portal"
+      />
       <ApplicationSteps />
-      <div id="programInfo">
-        <ProgramInfo />
-      </div>
-      <div id="biographicalInfo">
-        <BiographicalInfo />
-      </div>
-      <div id="lifestyleSection">
-        <LifestyleSection />
-      </div>
-      <div id="introductionEssays">
-        <IntroductionEssays />
-      </div>
-      <div id="photosVideos">
-        <PhotosVideos />
-      </div>
+      <ProgramInfo />
+      <BiographicalInfo />
+      <LifestyleSection />
+      <IntroductionEssays />
+      <PhotosVideos />
       <DocumentSubmission />
       <FinalReview />
       <FAQ />
+      <Conclusion />
     </HomeWrapper>
   );
 }
