@@ -29,7 +29,7 @@ function Home() {
     <HomeWrapper>
       <HeroSection />
       <PortalImage 
-        src="https://ik.imagekit.io/a7tech/nwse/NWSE%20Portal.jpg?updatedAt=1728609830993" 
+        src="https://ik.imagekit.io/a7tech/nwse/NWSE%20Portal.jpg?updatedAt=1729610876339" 
         alt="NWSE Portal"
       />
       <ApplicationSteps />

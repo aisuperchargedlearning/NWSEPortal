@@ -33,7 +33,7 @@ const Question = styled.h4`
   color: #333;
 `;
 
-const Answer = styled.p`
+const Answer = styled.div`
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #555;
