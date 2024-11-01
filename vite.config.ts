@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Required for Amplify deployment
   build: {
     outDir: 'dist',
     rollupOptions: {
@@ -12,5 +10,12 @@ export default defineConfig({
         manualChunks: undefined
       }
     }
+  },
+  // Add base URL for Amplify
+  base: '/',
+  // Ensure proper handling of client-side routing
+  server: {
+    host: true,
+    strictPort: true
   }
 });
